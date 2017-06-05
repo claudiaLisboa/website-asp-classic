@@ -1,0 +1,24 @@
+﻿<script language="javascript" runat="server">
+
+function Application_OnStart()
+{ 
+
+}
+
+function Application_OnEnd()
+{
+
+}
+
+function Session_OnStart()
+{
+    Session("RefUser") = "";
+    Session("MESSAGE") = "";
+}
+
+function Session_OnEnd()
+{
+
+}
+
+</script>
